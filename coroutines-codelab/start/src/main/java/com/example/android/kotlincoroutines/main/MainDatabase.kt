@@ -27,12 +27,13 @@ import androidx.room.PrimaryKey
 import androidx.room.Query
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import retrofit2.Call
 
 /**
  * Title represents the title fetched from the network
  */
 @Entity
-data class Title constructor(val title: String, @PrimaryKey val id: Int = 0)
+data class Title(val title: Call<String>, @PrimaryKey val id: Int = 0)
 
 /***
  * Very small database that will hold one title

@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         // update the title when the [MainViewModel.title] changes
         viewModel.title.observe(this) { value ->
             value?.let {
-                title.text = it
+                title.text = it.toString()
             }
         }
 
