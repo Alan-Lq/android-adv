@@ -4,11 +4,63 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9a88a7f-759b-45da-9257-e74a96acf927" name="Default Changelist" comment="">
+    <list default="true" id="e9a88a7f-759b-45da-9257-e74a96acf927" name="Default Changelist" comment="Mvvm,di, koin">
+      <change afterPath="$PROJECT_DIR$/Pagination/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/androidTest/java/com/example/submission7/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/java/com/example/submission7/Adapter_Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/java/com/example/submission7/ApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/java/com/example/submission7/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/java/com/example/submission7/MainViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/java/com/example/submission7/MovieDataFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/java/com/example/submission7/MovieDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/java/com/example/submission7/NetworkConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/java/com/example/submission7/ResponseData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/drawable-v24/ic_arrow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/drawable/animation_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/drawable/ic_search_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/drawable/loading_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/drawable/try_later.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/layout/row_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/menu/search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/app/src/test/java/com/example/submission7/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pagination/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../angular.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../browserslist" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../e2e/protractor.conf.js" beforeDir="false" />
@@ -92,10 +144,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Mvvm,di, koin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="0" width="876" height="837" key="CommitChangelistDialog2" timestamp="1604607206209">
+    <state x="239" y="6" width="876" height="837" key="CommitChangelistDialog2" timestamp="1605293427370">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="185" y="0" width="876" height="837" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1604607206209" />
+    <state x="239" y="6" width="876" height="837" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1605293427370" />
     <state x="549" y="174" key="FileChooserDialogImpl" timestamp="1604605712246">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
